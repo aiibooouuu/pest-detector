@@ -1,0 +1,31 @@
+path: /home/abuhamza/desktop/EngineeringCRCE/TE/DL/miniproject/ml/merged_data
+train: train/images
+val: val/images
+test: test/images
+nc: 12
+names:
+  0: whitefly_adult
+  1: jassid_adult
+  2: planthpper_adult
+  3: borer_larva
+  4: unknown_pest
+  5: whitefly_egg
+  6: aphid_adult
+  7: aphid_larva
+  8: caterpillar_larva
+  9: caterpillar_adult
+  10: mite_adult
+  11: thrips_adult
+lifecycle_stage:
+  whitefly_adult: adult
+  jassid_adult: adult
+  planthpper_adult: adult
+  borer_larva: larva
+  unknown_pest: unknown
+  whitefly_egg: larva
+  aphid_adult: adult
+  aphid_larva: larva
+  caterpillar_larva: larva
+  caterpillar_adult: adult
+  mite_adult: adult
+  thrips_adult: adult

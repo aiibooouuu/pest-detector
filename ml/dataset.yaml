@@ -1,0 +1,13 @@
+path: ./data
+
+train: train/images
+val:   valid/images
+test:  test/images
+
+nc: 5
+names:
+  0: Jassid
+  1: Whitefly
+  2: adult_hopper
+  3: borer
+  4: pest

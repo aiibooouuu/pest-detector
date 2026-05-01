@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body, #root {
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #f8faf8;
+  transition: background 0.2s ease;
+}
+
+html.dark body {
+  background: #0f1a13;
+}
+
+button { font-family: inherit; }
+img    { max-width: 100%; }
+
+@keyframes scanAnim {
+  0%   { transform: translateY(-80px); opacity: 0; }
+  20%  { opacity: 1; }
+  80%  { opacity: 1; }
+  100% { transform: translateY(80px); opacity: 0; }
+}
