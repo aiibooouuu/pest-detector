@@ -59,3 +59,35 @@ miniproject/
 └── README.md
 
 ```
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/aiibooouuu/pest-detector.git
+cd pest-detector
+
+cd ml
+
+pip install ultralytics torch torchvision numpy opencv-python pyyaml
+
+python merge_datasets.py
+python train.py --mode train
+python train.py --mode validate
+
+
+cd backend
+
+pip install fastapi uvicorn ultralytics opencv-python numpy torch
+
+uvicorn main:app --reload
+
+cd frontend
+
+npm install
+npm run dev
+
+```
